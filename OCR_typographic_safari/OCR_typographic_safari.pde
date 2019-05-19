@@ -1,7 +1,12 @@
 // ----------------------------------------------
-// OCR - A typographic Safari
+// OCR - A typographic safari
+// 19 to 26 may 2019 @ Le Signe, Chaumont, France.
+// Julien Gachadoat (www.2roqs.com / www.v3ga.net) & Benjamin Ribeau (www.kubik.fr)
+// 
+// Links
 //
-// Liens
+// https://github.com/v3ga/Workshop_Chaumont_OCR_2019
+//
 // https://cloud.google.com/vision/
 // https://cloud.google.com/vision/docs/reference/rest/v1/images/annotate
 
@@ -11,7 +16,7 @@ import processing.svg.*;
 import treemap.*;
 
 // ----------------------------------------------
-//String user = "Cite_numérique";
+// TODO : change this
 String user = "Chaumont dimanche soir";
 
 // ----------------------------------------------
@@ -43,8 +48,8 @@ boolean __DEBUG__ = false;
 // ----------------------------------------------
 void setup()
 {
-  size(1300, 768);
-  frame.setTitle("OCR — Un safari typographique — Chaumont 2019 / "+user);
+  size(1024, 768);
+  frame.setTitle("OCR — a typographic safari — Chaumont 2019 / "+user);
   loadFonts();
 
   rectPhoto = new Rect(0.25*float(width)+2, 0.15*float(height), 0.75*float(width)-2*2, 0.75*float(height));
