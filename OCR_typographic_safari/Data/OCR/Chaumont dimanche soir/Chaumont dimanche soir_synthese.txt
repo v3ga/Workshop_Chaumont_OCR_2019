@@ -1,0 +1,94 @@
+Chaumont dimanche soir
+------------------------------------------------
+-- Nombre d'annotations : 26
+-- Annotations : 
+Master
+SAUF & od 0000
+Cles * CAZ Pe63 Classe
+LOCATION DE VOITURES Resellez ici EMPLACEMENT RESERVE AUX LIVRAISONS ET AUX CLIENTS DE L ' HOTEL
+-- Statistiques annotations : 
+aux (2)
+de (2)
+caz (1)
+location (1)
+hotel (1)
+cles (1)
+reserve (1)
+0000 (1)
+od (1)
+et (1)
+master (1)
+ici (1)
+l (1)
+voitures (1)
+* (1)
+sauf (1)
+' (1)
+pe63 (1)
+& (1)
+clients (1)
+livraisons (1)
+classe (1)
+emplacement (1)
+resellez (1)
+---- Photo IMG_3290
+-- Annotations : 
+Master
+-- Couleurs : 
+#727B81 (score = 0.5330571, pixelFraction=0.0699115)
+#939A9E (score = 0.20619716, pixelFraction=0.06666667)
+#515558 (score = 0.13221213, pixelFraction=0.078525074)
+#31383D (score = 0.049419284, pixelFraction=0.047374632)
+#B4B9BA (score = 0.04545573, pixelFraction=0.24725664)
+#13191E (score = 0.028296404, pixelFraction=0.14265487)
+#64594B (score = 0.003496414, pixelFraction=0.0010029499)
+#0A1823 (score = 8.8163186E-4, pixelFraction=1.7699115E-4)
+#797061 (score = 5.1610294E-4, pixelFraction=1.7699115E-4)
+#DBDCDD (score = 4.6807626E-4, pixelFraction=0.3462537)
+
+---- Photo IMG_3287
+-- Annotations : 
+SAUF & od 0000
+-- Couleurs : 
+#EAE3D9 (score = 0.34689733, pixelFraction=0.24525073)
+#322F2D (score = 0.074658014, pixelFraction=0.24572271)
+#B74555 (score = 0.04740418, pixelFraction=0.005958702)
+#215D93 (score = 0.03361322, pixelFraction=0.0061356933)
+#105CB4 (score = 0.025235847, pixelFraction=0.0029498525)
+#CECAC1 (score = 0.07847129, pixelFraction=0.103067845)
+#1A1715 (score = 0.07254562, pixelFraction=0.05262537)
+#AA4E52 (score = 0.031908333, pixelFraction=0.00460177)
+#E8E1CF (score = 0.03108352, pixelFraction=0.030029498)
+#A09D97 (score = 0.028231315, pixelFraction=0.17876107)
+
+---- Photo IMG_3288
+-- Annotations : 
+Cles * CAZ Pe63 Classe
+-- Couleurs : 
+#989893 (score = 0.25962982, pixelFraction=0.33262536)
+#E3F1D0 (score = 0.063010395, pixelFraction=0.004306785)
+#36301E (score = 0.0036352077, pixelFraction=0.008259587)
+#7C7D77 (score = 0.24448387, pixelFraction=0.4240118)
+#B9C7A7 (score = 0.06214725, pixelFraction=0.0044837757)
+#BEC7B0 (score = 0.04540448, pixelFraction=0.0068436577)
+#C2C5BA (score = 0.045088712, pixelFraction=0.020648967)
+#969E88 (score = 0.04038108, pixelFraction=0.012684366)
+#8D9A7F (score = 0.03858899, pixelFraction=0.004778761)
+#E2EBD3 (score = 0.038279653, pixelFraction=0.004365782)
+
+---- Photo IMG_3289
+-- Annotations : 
+LOCATION DE VOITURES Resellez ici EMPLACEMENT RESERVE AUX LIVRAISONS ET AUX CLIENTS DE L ' HOTEL
+-- Couleurs : 
+#8B92A4 (score = 0.2249224, pixelFraction=0.07474926)
+#747B83 (score = 0.16618028, pixelFraction=0.09380531)
+#D2E4EE (score = 0.1120062, pixelFraction=0.10418879)
+#181815 (score = 0.091004424, pixelFraction=0.1959292)
+#8C97A2 (score = 0.08423167, pixelFraction=0.07911504)
+#32312F (score = 0.07540017, pixelFraction=0.19510324)
+#BACBD5 (score = 0.07427418, pixelFraction=0.14578171)
+#555A5D (score = 0.053179126, pixelFraction=0.043362834)
+#7B8192 (score = 0.048290987, pixelFraction=0.03722714)
+#BACFDD (score = 0.034417663, pixelFraction=0.012625368)
+
+
