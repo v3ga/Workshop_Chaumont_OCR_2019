@@ -12,6 +12,8 @@ Maria, Anastasia, Ana, Segio
 #### Yellow area
 Chloé, Laetitia, Marine
 
+<img src="Visuels/BoxTisza/box_1_bis_b.jpg" width="350" />
+
 ## Links
 * [Reconnaissance optique de caractères](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res) / [Optical character recognition](https://en.wikipedia.org/wiki/Optical_character_recognition)
 * [Google Vision AI](https://cloud.google.com/vision/) which will allow us to retrieve data from images.
