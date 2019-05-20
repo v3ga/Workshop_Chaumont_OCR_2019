@@ -4,9 +4,8 @@
 ![OCR_Tool](Visuels/01_OCR_tool.png)
 
 ## Box 1bis and 1 @ Tezla Texil
-![Box1bis](Documents/box 1 bis b.jpg)
-![Box1bis](Documents/box 1a.jpg)
-![Box1bis](Documents/box 1b.jpg)
+![OCR_Map](Documents/Map_Zones.jpg)
+
 
 ## Links
 * [Reconnaissance optique de caractères](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res) / [Optical character recognition](https://en.wikipedia.org/wiki/Optical_character_recognition)
