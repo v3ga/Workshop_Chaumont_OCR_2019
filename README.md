@@ -13,6 +13,8 @@ Maria, Anastasia, Ana, Segio
 Chloé, Laetitia, Marine
 
 <img src="Visuels/BoxTisza/box_1_bis_b.jpg" width="350" />
+<img src="Visuels/BoxTisza/box_1a.jpg" width="350" />
+<img src="Visuels/BoxTisza/box_1b.jpg" width="350" />
 
 ## Links
 * [Reconnaissance optique de caractères](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res) / [Optical character recognition](https://en.wikipedia.org/wiki/Optical_character_recognition)
