@@ -8,7 +8,7 @@
 #### Purple area
 Pauline, Camille, Aniello
 #### Blue area
-Maria, Anastasia, Ana, Segio
+Maria, Anastasia, Ana, Sergio
 #### Yellow area
 Chloé, Laetitia, Marine
 
