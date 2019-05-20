@@ -5,7 +5,12 @@
 
 ## Box 1bis and 1 @ Tezla Texil
 ![OCR_Map](Visuels/Map_Zones.jpg)
-
+#### Purple area
+Pauline, Camille, Aniello
+#### Blue area
+Maria, Anastasia, Ana, Segio
+#### Yellow area
+Chloé, Laetitia, Marine
 
 ## Links
 * [Reconnaissance optique de caractères](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res) / [Optical character recognition](https://en.wikipedia.org/wiki/Optical_character_recognition)
