@@ -3,7 +3,7 @@
 ## Tool screenshots
 ![OCR_Tool](Visuels/01_OCR_tool.png)
 
-## Box 1bis and 1 @ Tezla Texil
+## Box 1bis and 1 @ Tisza Texil
 ![OCR_Map](Visuels/Map_Zones.jpg)
 #### Purple area
 Pauline, Camille, Aniello
