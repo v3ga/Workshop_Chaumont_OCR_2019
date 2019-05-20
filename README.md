@@ -8,4 +8,5 @@
 * [Google Vision AI](https://cloud.google.com/vision/) which will allow us to retrieve data from images.
 * A bit of history, [Yann Lecun showing handwritten digits classification (1993)](https://www.youtube.com/watch?v=FwFduRA_L6Q)
 * [Generative gestaltung code packages](http://www.generative-gestaltung.de/1/code), check the 01_P/P_3 sketches for transforming texts into graphic patterns.
+* [Languages as symbols](https://writing-system.tumblr.com/)
 
