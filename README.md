@@ -4,7 +4,7 @@
 ![OCR_Tool](Visuels/01_OCR_tool.png)
 
 ## Box 1bis and 1 @ Tezla Texil
-![OCR_Map](Documents/Map_Zones.jpg)
+![OCR_Map](Visuels/Map_Zones.jpg)
 
 
 ## Links
