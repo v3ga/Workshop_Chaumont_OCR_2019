@@ -3,7 +3,7 @@
 ## Tool screenshots
 ![OCR_Tool](Visuels/01_OCR_tool.png)
 
-## Box 1bis and 1 @ Tisza Texil
+## Zoning
 ![OCR_Map](Visuels/Map_Zones.jpg)
 #### Purple area
 Pauline, Camille, Aniello
@@ -12,6 +12,7 @@ Maria, Anastasia, Ana, Sergio
 #### Yellow area
 Chloé, Laetitia, Marine
 
+## Box 1bis and 1 @ Tisza Texil
 <img src="Visuels/BoxTisza/box_1bis_pano.JPG" width="800" />
 <img src="Visuels/BoxTisza/box_1_pano.JPG" width="800" />
 
