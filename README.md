@@ -20,4 +20,5 @@ Chloé, Laetitia, Marine
 * A bit of history, [Yann Lecun showing handwritten digits classification (1993)](https://www.youtube.com/watch?v=FwFduRA_L6Q)
 * [Generative gestaltung code packages](http://www.generative-gestaltung.de/1/code), check the 01_P/P_3 sketches for transforming texts into graphic patterns.
 * [Languages as symbols](https://writing-system.tumblr.com/)
-
+* [Oulipo](https://en.wikipedia.org/wiki/Oulipo)
+* [A Hundred Thousand Poems / Raymond Queneau](https://en.wikipedia.org/wiki/Hundred_Thousand_Billion_Poems)
