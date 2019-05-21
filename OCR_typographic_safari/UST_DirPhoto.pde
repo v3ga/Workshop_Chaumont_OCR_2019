@@ -113,6 +113,16 @@ class UST_DirPhoto
   }
 
   // ----------------------------------------------
+  void saveTextAnnotationsSVGFor(int index)
+  {
+    UST_Photo photo = photos.get(index);
+    if (photo != null)
+    {
+      photo.makeTextAnnotationsSVG();
+    }
+  }
+
+  // ----------------------------------------------
   void saveTextAnnotationsSVG()
   {
     for (UST_Photo photo : photos)

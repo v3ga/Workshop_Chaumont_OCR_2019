@@ -4,6 +4,8 @@ class UST_Photo
   String pathJson = "";
   String pathImg = "";
 
+  String strOrientation = "";
+
   PImage img;
   JSONObject json;
   JSONArray textAnnotations;
@@ -23,8 +25,10 @@ class UST_Photo
 
     println("Photo "+name);
     println("  > "+this.pathJson);
-    println("  > "+this.pathImg);
+    println("  > "+this.pathImg + " — "+sketchPath(this.pathImg));
 
+
+    this.readMetadata();
     json = loadJSONObject(this.pathJson);
 
     // Text annotation
@@ -51,6 +55,37 @@ class UST_Photo
     for (int i=0; i<colors.size(); i++)
     {
       listColors.add( new UST_Couleur(this, this.colors.getJSONObject(i) ) );
+    }
+  }
+
+  // ----------------------------------------------
+  void readMetadata()
+  {
+    File f = new File( sketchPath(this.pathImg) );
+    try 
+    {
+      Metadata metadata = JpegMetadataReader.readMetadata(f);
+      for (Directory directory : metadata.getDirectories()) 
+      {
+        for (Tag tag : directory.getTags()) 
+        {
+          if (tag.getDirectoryName().equals("Exif IFD0"))
+          {
+            if (tag.getTagName().equals("Orientation"))
+            {
+              strOrientation = tag.getDescription();
+//              System.out.println(tag);
+            }
+          }
+        }
+      }
+    }
+
+    catch (JpegProcessingException e) {
+      print(e);
+    } 
+    catch (Exception e) {
+      print(e);
     }
   }
 
@@ -232,7 +267,7 @@ class UST_Photo
     for (UST_Couleur couleur : listColors)
     {
       fill(couleur.c);
-     rect(x,0.0,size,size);
+      rect(x, 0.0, size, size);
       x+=size;
     }
     /*

@@ -13,13 +13,12 @@
 // ----------------------------------------------
 import java.util.*;
 import processing.svg.*;
-// import treemap.*;
+import com.drew.imaging.*;
+import com.drew.metadata.*;
 
 // ----------------------------------------------
 // TODO : change this
-//String user = "Chaumont dimanche soir";
-//String user = "Chaumont lundi midi";
-String user = "Anastasia";
+String user = "Pauline";
 String ext = ".jpg";
 
 // ----------------------------------------------
@@ -84,6 +83,15 @@ void draw()
   if (rectColors != null)
     dirPhoto.drawPhotoColors(indexPhoto, rectColors, 15.0);
 
+/*
+UST_Photo photo = dirPhoto.photos.get(indexPhoto);
+  if (photo !=null)
+  {
+    fill(255,0,0);
+    text(photo.strOrientation,width-200,20);
+  }
+*/
+
   // Debug
   drawDebug();
 }
@@ -109,10 +117,13 @@ void keyPressed()
       int indexFont = fonts.indexOf(fontCurrent)-1;
       if (indexFont < 0) indexFont = fonts.size()-1;
       fontCurrent = fonts.get(indexFont);
-    } else if (key == 's')
+    }
+    else if (key == 's')
     {
-      dirPhoto.saveTextAnnotationsVignettes();
-      dirPhoto.saveTextAnnotationsSVG();
+//      dirPhoto.saveTextAnnotationsVignettes();
+//      dirPhoto.saveTextAnnotationsSVG();
+        dirPhoto.saveTextAnnotationsSVGFor(indexPhoto);
+
     }
   }
 }
