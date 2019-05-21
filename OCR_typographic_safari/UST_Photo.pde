@@ -19,7 +19,7 @@ class UST_Photo
   {
     this.name = name;
     this.pathJson = pathDb+name+".json";
-    this.pathImg = pathImages+name+".JPG";
+    this.pathImg = pathImages+name+ext;
 
     println("Photo "+name);
     println("  > "+this.pathJson);

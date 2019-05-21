@@ -16,12 +16,13 @@ class UST_DirPhoto
     for (int i=0; i<filesAll.length; i++) 
       if (filesAll[i].isDirectory() == false && !filesAll[i].getName().equals(".DS_Store") ) 
       {
-        // files.add( filesAll[i] );
         String name = getBaseName( filesAll[i].getName() );
-        UST_Photo photo = new UST_Photo(name);
-        photos.add(photo);
-
-        textPhotos += photo.getTextAnnotationDescription(0);
+        if (name.substring(0, 1).equals(".") == false)
+        {
+          UST_Photo photo = new UST_Photo(name);
+          photos.add(photo);
+          textPhotos += photo.getTextAnnotationDescription(0);
+        }
       }
 
     // Create an hashmap of words
@@ -40,7 +41,11 @@ class UST_DirPhoto
       @Override
         public int compare(UST_Word A, UST_Word B)
       {
-        return A.count < B.count ? 1 : -1;
+        if (A.count < B.count)
+        return 1;
+        else if (A.count > B.count)
+        return -1;
+        return 0;
       }
     }
     );
@@ -119,21 +124,21 @@ class UST_DirPhoto
   {
     String s ="";
     String sep="";
-/*
+    /*
 for (Map.Entry wordEntry : words.entrySet()) 
-    {
-      UST_Word word = (UST_Word) wordEntry.getValue();
-      s+= sep+wordEntry.getKey() + " ("+ word.count +")";
-      sep = separator;
-    }
-*/
+     {
+     UST_Word word = (UST_Word) wordEntry.getValue();
+     s+= sep+wordEntry.getKey() + " ("+ word.count +")";
+     sep = separator;
+     }
+     */
     for (UST_Word word : wordsByCount)
     {
       s+= sep+word.string + " ("+ word.count +")";
       sep = separator;
     }
 
-return s;
+    return s;
   }
 
 
@@ -163,23 +168,29 @@ return s;
     }
   }
 
+  // ----------------------------------------------
+  void unloadPhotoImg(int index)
+  {
+    if (index < 0) return;
+    UST_Photo photo = photos.get(index);
+    if (photo != null)
+      photo.img = null;
+  }
 
   // ----------------------------------------------
   void loadPhotoImg(int index)
   {
     UST_Photo photo = photos.get(index);
     if (photo != null)
-    {
       photo.loadImg();
-    }
   }
 
   // ----------------------------------------------
   void drawPhotoWords(int index, Rect r)
   {
     String underline="--------------------------------\n";
-    String s = "# statistiques annotations : \n" + underline + getAnnotationsStatistics(" / ") + "\n\n";
-
+    //    String s = "# statistiques annotations : \n" + underline + getAnnotationsStatistics(" / ") + "\n\n";
+    String s = "";
     UST_Photo photo = photos.get(index);
     if (photo != null)
     {

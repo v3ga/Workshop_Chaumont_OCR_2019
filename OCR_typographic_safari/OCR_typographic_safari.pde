@@ -17,7 +17,10 @@ import processing.svg.*;
 
 // ----------------------------------------------
 // TODO : change this
-String user = "Chaumont dimanche soir";
+//String user = "Chaumont dimanche soir";
+//String user = "Chaumont lundi midi";
+String user = "Anastasia";
+String ext = ".jpg";
 
 // ----------------------------------------------
 String pathUser = "Data/OCR/"+user+"/";
@@ -49,11 +52,11 @@ boolean __DEBUG__ = false;
 void setup()
 {
   size(1024, 768);
-  frame.setTitle("OCR — a typographic safari — Chaumont 2019 / "+user);
+  surface.setTitle("OCR — a typographic safari — Chaumont 2019 / "+user);
   loadFonts();
 
-  rectPhoto = new Rect(0.25*float(width)+2, 0.15*float(height), 0.75*float(width)-2*2, 0.75*float(height));
-  rectInfos = new Rect(0, 0, 0.25*float(width), float(height));
+  rectPhoto = new Rect(0.35*float(width)+2, 0.15*float(height), 0.65*float(width)-2*2, 0.75*float(height));
+  rectInfos = new Rect(0, 0, 0.35*float(width), float(height));
 
   dirPhoto = new UST_DirPhoto(pathUser);
   dirPhoto.saveInfos();
@@ -119,6 +122,8 @@ void setPhoto(int index)
 {
   if (index != indexPhoto)
   {
+    dirPhoto.unloadPhotoImg(indexPhoto);
+    
     indexPhoto = index;
     dirPhoto.loadPhotoImg(indexPhoto);
   }
