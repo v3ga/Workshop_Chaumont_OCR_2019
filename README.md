@@ -22,10 +22,10 @@ Chloé, Laetitia, Marine
 <img src="Photos/C_Tisza_setup_sketches_Camille_Marine_Pauline_Anastasia.JPG" width="800" />
 <img src="Photos/D_Tisza_OCR_application_sketches_photos_pano.JPG" width="800" />
 <img src="Photos/D_Tisza_Poster_01_Sergio.JPG" width="250" align="left" />
-<img src="Photos/D_Tisza_Poster_02_Laëtitia.JPG" width="250" align="left" />
+<img src="Photos/D_Tisza_Poster_02_Laetitia.JPG" width="250" align="left" />
 <img src="Photos/D_Tisza_Poster_03_Aniello.JPG" width="250" align="left" />
 <img src="Photos/D_Tisza_Poster_04_Anastasia.JPG" width="250" align="left" />
-<img src="Photos/D_Tisza_Poster_05_Chloé.JPG" width="250" align="left" />
+<img src="Photos/D_Tisza_Poster_05_Chloe.JPG" width="250" align="left" />
 <img src="Photos/D_Tisza_Poster_06_Ana.JPG" width="250" align="left" />
 <img src="Photos/D_Tisza_Poster_07_Pauline.JPG" width="250" align="left" />
 <img src="Photos/D_Tisza_Poster_08_Marine.JPG" width="250" align="left" />
