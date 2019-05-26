@@ -20,6 +20,7 @@ Chloé, Laetitia, Marine
 <img src="Photos/A_Canopé_classroom_very_serious.JPG" width="800" />
 <img src="Photos/B_Print_Gauthier_orange.JPG" width="400" align="left" />
 <img src="Photos/B_Print_in_comic_sans_we_trust_on_table.JPG" width="400" align="left" />
+<img src="Photos/C_TIisza_setup_posters_hanging_02.JPG" width="800" />
 
 
 
