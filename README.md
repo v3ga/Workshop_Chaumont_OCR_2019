@@ -18,8 +18,8 @@ Chloé, Laetitia, Marine
 
 ## Photos
 <img src="Photos/A_Canopé_classroom_very_serious.JPG" width="800" />
-<img src="Photos/B_Print_Gauthier_orange.JPG" width="400" />
-<img src="Photos/B_Print_in_comic_sans_we_trust_on_table.JPG" width="400" />
+<img src="Photos/B_Print_Gauthier_orange.JPG" width="400" align="left" />
+<img src="Photos/B_Print_in_comic_sans_we_trust_on_table.JPG" width="400" align="left" />
 
 
 
