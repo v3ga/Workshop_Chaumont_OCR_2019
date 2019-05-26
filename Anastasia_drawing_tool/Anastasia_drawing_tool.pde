@@ -1,16 +1,20 @@
 import processing.pdf.*;
 import java.util.Calendar;
 
-boolean bStartRecord = false;
-boolean bStopRecord = false;
+boolean bStartRecord = true;
+boolean bStopRecord = true;
 PShape letterForm;
-
+boolean bMousePressed = false;
+PVector mouse = new PVector();
 
 // ------------------------------------------------------------------------------------
-float letterWidth = 50.0; // Change the width of the letter
+float letterWidth = 400.0; // Change the width of the letter
 float letterHeight = 0;
-String letterName = "letters/1.svg";
+String letterName = "29bis.svg";
 float angleRotation = 0;
+float distance = 8; // try change this
+float freq = 1 ; // try change this like 6 or 2 or 5
+
 
 // key E : begin exports
 // key S : stop exports
@@ -30,25 +34,39 @@ void draw()
 {
   if (bStartRecord)
   {
-    beginRecord(PDF,"exports/"+timestamp()+"_export.pdf");
+    beginRecord(PDF, "exports/"+timestamp()+"_export.pdf");
     bStartRecord = false;
   }
-  
+
   if (letterForm != null)
   {
-    if (mousePressed)
+    /*    if (mousePressed)
+     {
+     // rotate( map( mouseY-height/2,-height/2,height/2,-PI/5,PI/5 ) );
+     if (dist(mouse.x, mouse.y, mouseX, mouseY)>distance)
+     {
+     translate(mouse.x-letterWidth/2, mouse.y-letterHeight/2);
+     rotate( radians(angleRotation) );
+     shape(letterForm, 0,0, letterWidth,letterHeight);
+     mouse.x = mouseX;
+     mouse.y = mouseY;
+     }}
+     */
+    for (float y=0; y<height-40; y+=distance)
     {
-      translate(mouseX-letterWidth/2, mouseY-letterHeight/2);
-      // rotate( map( mouseY-height/2,-height/2,height/2,-PI/5,PI/5 ) );
+      float x = width/2+sin(map(y, 0, height-40, 0, freq*TWO_PI))*width/2*0.3 ;    
+      pushMatrix();
+      translate(x-letterWidth/2, y-letterHeight);
       rotate( radians(angleRotation) );
-      shape(letterForm, 0,0, letterWidth,letterHeight);
-    }
-  } else
-  {
-    if (mousePressed)
-      ellipse(mouseX, mouseY, 100, 100);
+      shape(letterForm, 0, 0, letterWidth, letterHeight);
+      popMatrix();
   }
-  
+  }
+  /*} else
+   {
+   if (mousePressed)
+   ellipse(mouseX, mouseY, 100, 100);
+   */
   if (bStopRecord)
   {
     endRecord();
@@ -56,147 +74,21 @@ void draw()
   }
 }
 
+
+
+void mousePressed()
+{
+  mouse.set(mouseX, mouseY);
+}
+
 void keyPressed()
 {
-  if (key == '1')
+  if (key == 'e')
   {
-    letterName="letters/1.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == '2')
+    bStartRecord = true;
+  } else if (key == 's')
   {
-    letterName="letters/2.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == '3')
-  {
-    letterName="letters/3.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == '4')
-  {
-//    letterName="letters/4.svg";
-//    letterForm = loadShape(letterName);
-  }
-  else if (key == '5')
-  {
-    letterName="letters/5.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == '6')
-  {
-    letterName="letters/6.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == '7')
-  {
-    letterName="letters/7.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == '8')
-  {
-    letterName="letters/8.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == '9')
-  {
-    letterName="letters/9.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'a')
-  {
-    letterName="letters/10.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'b')
-  {
-    letterName="letters/11.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'c')
-  {
-    letterName="letters/12.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'd')
-  {
-    letterName="letters/13.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'e')
-  {
-    letterName="letters/14.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'f')
-  {
-    letterName="letters/15.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'g')
-  {
-    letterName="letters/7.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'h')
-  {
-    letterName="letters/16.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'i')
-  {
-    letterName="letters/17.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'j')
-  {
-    letterName="letters/18.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'k')
-  {
-    letterName="letters/19.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'l')
-  {
-    letterName="letters/20.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'm')
-  {
-    letterName="letters/21.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'n')
-  {
-    letterName="letters/22.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'o')
-  {
-    letterName="letters/23.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'p')
-  {
-    letterName="letters/24.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'q')
-  {
-    letterName="letters/25.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 'r')
-  {
-    letterName="letters/26.svg";
-    letterForm = loadShape(letterName);
-  }
-  else if (key == 's')
-  {
-    letterName="letters/27.svg";
-    letterForm = loadShape(letterName);
+    bStopRecord = true;
   }
 }
 
