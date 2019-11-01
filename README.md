@@ -26,7 +26,6 @@ Chloé, Laetitia, Marine
 * [A Hundred Thousand Poems / Raymond Queneau](https://en.wikipedia.org/wiki/Hundred_Thousand_Billion_Poems)
 
 ## Photos
-<div float="left">
 <img src="Photos/C_Tisza_setup_panorama.JPG" width="800" />
 <img src="Photos/C_Tisza_setup_sketches_Camille_Marine_Pauline_Anastasia.JPG" width="800" />
 <img src="Photos/D_Tisza_OCR_application_sketches_photos_pano.JPG" width="800" />
@@ -40,5 +39,4 @@ Chloé, Laetitia, Marine
 <img src="Photos/D_Tisza_Poster_08_Marine.JPG" width="250" align="left" />
 <img src="Photos/D_Tisza_Poster_09_Camille.JPG" width="250" align="left" />
 <img src="Photos/D_Tisza_Poster_10_Maria.JPG" width="250" align="left" />
-</div>
 
