@@ -16,8 +16,17 @@ Chloé, Laetitia, Marine
 <img src="Visuels/BoxTisza/box_1bis_pano.JPG" width="800" />
 <img src="Visuels/BoxTisza/box_1_pano.JPG" width="800" />
 
+## Links
+* [Reconnaissance optique de caractères](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res) / [Optical character recognition](https://en.wikipedia.org/wiki/Optical_character_recognition)
+* [Google Vision AI](https://cloud.google.com/vision/) which will allow us to retrieve data from images.
+* A bit of history, [Yann Lecun showing handwritten digits classification (1993)](https://www.youtube.com/watch?v=FwFduRA_L6Q)
+* [Generative gestaltung code packages](http://www.generative-gestaltung.de/1/code), check the 01_P/P_3 sketches for transforming texts into graphic patterns.
+* [Languages as symbols](https://writing-system.tumblr.com/)
+* [Oulipo](https://en.wikipedia.org/wiki/Oulipo)
+* [A Hundred Thousand Poems / Raymond Queneau](https://en.wikipedia.org/wiki/Hundred_Thousand_Billion_Poems)
+
 ## Photos
-<div>
+<div float="left">
 <img src="Photos/C_Tisza_setup_panorama.JPG" width="800" />
 <img src="Photos/C_Tisza_setup_sketches_Camille_Marine_Pauline_Anastasia.JPG" width="800" />
 <img src="Photos/D_Tisza_OCR_application_sketches_photos_pano.JPG" width="800" />
@@ -33,14 +42,3 @@ Chloé, Laetitia, Marine
 <img src="Photos/D_Tisza_Poster_10_Maria.JPG" width="250" align="left" />
 </div>
 
-
-
-
-## Links
-* [Reconnaissance optique de caractères](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res) / [Optical character recognition](https://en.wikipedia.org/wiki/Optical_character_recognition)
-* [Google Vision AI](https://cloud.google.com/vision/) which will allow us to retrieve data from images.
-* A bit of history, [Yann Lecun showing handwritten digits classification (1993)](https://www.youtube.com/watch?v=FwFduRA_L6Q)
-* [Generative gestaltung code packages](http://www.generative-gestaltung.de/1/code), check the 01_P/P_3 sketches for transforming texts into graphic patterns.
-* [Languages as symbols](https://writing-system.tumblr.com/)
-* [Oulipo](https://en.wikipedia.org/wiki/Oulipo)
-* [A Hundred Thousand Poems / Raymond Queneau](https://en.wikipedia.org/wiki/Hundred_Thousand_Billion_Poems)
